@@ -11,7 +11,7 @@ def login():
         print('Por enquanto nosso painel está com poucas ferramentas, desfrute abaixo:')
         print('.' * 12)
         print('1: Calcular um valor + outro')
-        print('2: ')
+        print('2: Analisar o antecessor e o sucessor de um numero')
         ferramenta = input('Qual opção deseja usar?: ')
         
         if ferramenta == "1":
@@ -21,6 +21,12 @@ def login():
             n2 = int(input('Digite outro valor: '))
             s = n1 + n2 
             print('Seu valor somado deu: {}'.format(s))
+        if ferramenta == "2":
+            print('Você escolheu a opçâo de analisar o antecessor e o sucessor ')    
+    
+    
+    
+    
     else:
         print('Acesso negado')
         relog = input('Gostaria de tentar novamente? (s/n): ')
