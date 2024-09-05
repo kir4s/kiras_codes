@@ -18,7 +18,7 @@ print('|___0000000000000000000__0000000000000000000   |')
 print('|____00000000000000000____00000000000000000    |')
 print('|_______0000000000____________0000000000       |')
 print('|_____0000000000000_________0000000000000      |')
-print('|                 by:kiras                     |')
+print('|                 by:₭ȋℜ₳Ꮥ                     |')
 print('.' * 46)
 
 def login():
@@ -41,7 +41,7 @@ def login():
             print('.' * 12)
             n1 = int(input('Digite um valor: '))
             n2 = int(input('Digite outro valor: '))
-            s = n1 - n2 
+            s = n1 + n2 
             print('Seu valor somado deu: {}'.format(s))
         if ferramenta == "2":
             print('Você escolheu a opçâo de analisar o antecessor e o sucessor ')    
