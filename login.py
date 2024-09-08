@@ -11,7 +11,7 @@ def login():
     print('Carregando informações...')
     print('.' * 45)
     if a == 'alerock' or a == 'kiras':
-        print(Fore.GREEN + 'acesso LIBERADO')
+        print(Fore.GREEN + 'acesso LIBERADO!')
         print('.' * 45 )
         
     else:
